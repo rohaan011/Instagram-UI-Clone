@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/screens/chatScreen.dart';
 import 'package:instagram_clone/screens/homeScreen.dart';
 import 'package:instagram_clone/screens/profileScreen.dart';
 
