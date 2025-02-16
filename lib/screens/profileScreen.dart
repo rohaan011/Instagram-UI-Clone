@@ -104,7 +104,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                     SizedBox(
                       height: 5,
                     ),
-                    Text("Let's Plan for sheypoksundo"),
+                    Text("Instagram X OnePiece"),
                     SizedBox(
                       height: 10,
                     ),
@@ -141,7 +141,7 @@ class _ProfilescreenState extends State<Profilescreen> {
                                     color: Colors.white, // White background
                                   ),
                                   child: CircleAvatar(
-                                    radius: 31,
+                                    radius: 39,
                                     backgroundColor: Colors
                                         .white, // Ensures the inside stays white
                                     child: Icon(Icons.add,
@@ -154,20 +154,20 @@ class _ProfilescreenState extends State<Profilescreen> {
                             ),
                           ),
                           highlights(
-                              'https://cdn.getyourguide.com/img/tour/a8807768851d62cbf0483d743946ae271c59507193ad9ba18b5c551949184ab6.jpg/99.jpg',
-                              'Pokhara'),
+                              'https://static.wikia.nocookie.net/onepiece/images/0/07/Egghead_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20240519023222',
+                              'Egghead'),
                           highlights(
-                              'https://peakpromotionnepal.com/wp-content/uploads/2022/02/Annapurna-Base-Camp-Trek.jpg',
-                              'ABC'),
+                              'https://m.media-amazon.com/images/M/MV5BMTFmZmJjZjMtNmZmMi00ZjllLWExOTktNWE1ZjBjNTYwZGIxXkEyXkFqcGc@._V1_.jpg',
+                              'Wano Country'),
                           highlights(
-                              'https://nepal8thwonder.com/wp-content/uploads/2023/07/Aerial-view-of-Tsho-Rolpa-Lake.jpg',
-                              'Tsho-Rolpa'),
+                              'https://static.wikia.nocookie.net/onepiece/images/1/1f/Big_Mom_Eats_Sweet_City.png/revision/latest?cb=20170514045412',
+                              'Whole-Cake'),
                           highlights(
-                              'https://www.nepalindependentguide.com/wp-content/uploads/2021/04/Kori-Top.gif',
-                              'Kori'),
+                              'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/51158316-fd7e-48ca-b5fe-8542e9dfe357/dcbxder-0d383269-d414-4b6e-a3b5-f368f11ac532.png',
+                              'Zou'),
                           highlights(
-                              'https://cdn.getyourguide.com/img/tour/a8807768851d62cbf0483d743946ae271c59507193ad9ba18b5c551949184ab6.jpg/99.jpg',
-                              'Pokhara'),
+                              'https://static0.srcdn.com/wordpress/wp-content/uploads/2022/06/One-Piece-Dressrosa-Island-Doflamingo-Donquixote-Face-Background.jpg',
+                              'Dessrosa'),
                         ],
                       ),
                     )
@@ -222,7 +222,7 @@ class _ProfilescreenState extends State<Profilescreen> {
       child: Column(
         children: [
           CircleAvatar(
-            radius: 32,
+            radius: 40,
             backgroundImage: NetworkImage(url),
           ),
           Text(text),
